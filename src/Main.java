@@ -63,8 +63,8 @@ public class Main {
 
             System.out.println(" Доставка займет " + (time + 1) + " дня ");
         }
-        if (deliveryDistance > 100)
-            System.out.println(" Доставка не осущевстляется ");
+        if (deliveryDistance > 100){
+            System.out.println(" Доставка не осущевстляется ");}
         return time;
         }
 
