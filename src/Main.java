@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        YearLeap(1961);
+        yearLeap(1961);
 
 
         defenitionOsVersion(1, 2024);
@@ -17,7 +17,7 @@ public class Main {
     }
 
 
-    public static void YearLeap(int year) {
+    public static void yearLeap(int year) {
         boolean yearLeap = (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0));
         if (yearLeap) {
             System.out.println(+year + " год является висококосным");
